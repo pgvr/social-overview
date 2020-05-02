@@ -1,0 +1,26 @@
+{
+    "eslint.validate": ["vue", "javascript", "typescript"],
+    "vetur.format.defaultFormatter.html": "prettier",
+    "editor.formatOnSave": true,
+    "[vue]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+            "source.organizeImports": true
+        }
+    },
+    "[typescript]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+            "source.organizeImports": true
+        }
+    },
+    "[javascript]": {
+        "editor.formatOnSave": false,
+        "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true,
+            "source.organizeImports": true
+        }
+    }
+}
